@@ -8,8 +8,6 @@ export const socketURL = 'http://192.168.0.19:5001';
 
 /* const baseURL = STRING.backendUrl; */
 
-/* AIzaSyDusLCLEJNXepJY9myjOWSpfB9k7525ZzE */
-
 const api = axios.create({baseURL});
 
 api.interceptors.request.use(async (config: InternalAxiosRequestConfig) => {
